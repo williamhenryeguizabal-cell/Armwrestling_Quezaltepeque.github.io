@@ -1,0 +1,149 @@
+.body,html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#04214e,#041336);
+    background-size: cover;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    border-radius: 100%;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: rgb(185, 184, 184);
+    border-radius: 10px;
+    
+}  
+
+
+
+
+
+.informacion {
+    background-color: rgb(185, 184, 184);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.informacion h2 {
+    color: #181717;
+    margin-bottom: 10px;
+}
+
+.informacion p {
+    color: #000000;
+    line-height: 1.6;
+}   
+
+.copy {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    
+
+}
+
+.foto-entrenamiento {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.foto-top {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ .boton1 {
+      background-color: #058837;
+     border: none;
+     padding: 3px 1px;
+     display: inline;
+     align-items: center;
+
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     width: 60px;
+     height: 30px;
+      }
+
+.boton1:hover {
+background-color: #02461c;
+}
+
+ .boton2 {
+       background:linear-gradient(#02011d, #030225,#070231);
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     color: rgb(177, 174, 174);
+      }
+
+.boton2:hover {
+background-color: #090433;
+}
+
+.boton3 {
+     background:linear-gradient(#a212db,#f70acf,#df7f11);
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     color: rgb(20, 20, 20);
+      }
+
+.boton3:hover {
+background:linear-gradient(#8d14bd,#9e0e86,#a15c0d);
+}
+
+.boton4 {
+     background-color: rgb(207, 202, 202);
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     color: rgb(177, 174, 174);
+      }
+
+.boton4:hover {
+background-color: rgb(179, 175, 175);
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
