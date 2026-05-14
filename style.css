@@ -17,7 +17,7 @@ header {
     padding: 20px;
     background-color: #050c1f;
     height: 20px;
-    width: 1284px;
+    width: 100%;
     top: 0;
     position: fixed;
     color: #000000;
@@ -36,7 +36,6 @@ header {
 .logo { 
     width: 45px;
     height: auto;
-    border-radius: 100%;
 }
 .container-menu {
     display: flex;
@@ -788,8 +787,7 @@ text-align: left;
     display: flex;
     justify-content: space-between;
      position: fixed;
-     width: 350px;
-    
+     width: 100%;
     
 
   }
@@ -804,10 +802,8 @@ text-align: left;
     position: fixed;
   top: 0;
   right: -100%; /* oculto fuera de pantalla */
-  
   width: 60%; /* podés probar 50% si querés más pequeño */
   height: 100vh;
-
   background-color: #111a2e;
   display: flex;
   flex-direction: column;
@@ -821,14 +817,19 @@ text-align: left;
   }
   .container-menu.active {
      right: 0;
+
   }
+
   .container-icon-menu {
     display: block;
     color: #fff;
     z-index: 1100;
     position: relative;
     font-size: 24px;
+    flex-shrink: 0;
+    right: 33px;
   }
+
   .overlay {
   position: fixed;
   top: 0;
@@ -844,9 +845,10 @@ text-align: left;
   display: block;
 }
 
+* {
+    outline: 1px solid red;
 
-
-
+}
 /* 
 * {
     outline: 1px solid red;
@@ -862,8 +864,12 @@ text-align: left;
 
 .inicio {
 width: 100%;
- height: 637px;
-
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+    background-color: #000000;
 }
 
 .inicio-texto{
@@ -875,7 +881,7 @@ width: 100%;
 
 }
 .inicio-texto h1{
-    
+    width: 70%;
     font-size: 48px;
     margin: 0;
     margin-top: 30px;
@@ -903,18 +909,20 @@ width: 100%;
    margin-left: 18px;
 
 }
-
 .inicio-img {
-   
-    height: 637px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #000000;
     background-image: url(fotos/img\ inici\ cel.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
+    
    
 
     
 
-}
+} 
 
 .btn{
     font-size: 19px;
