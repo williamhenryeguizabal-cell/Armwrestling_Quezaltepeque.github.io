@@ -146,7 +146,7 @@ footer {
 }
 .inicio-texto p{
     max-width: 500px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -19px;
     color: rgb(209, 209, 209);
     
@@ -203,7 +203,7 @@ footer {
      
     display: flex;
   max-width: 1310px;
-   height: 450px;
+   height: 500px;
    
     justify-content: center;
     align-items: center;
@@ -211,20 +211,20 @@ footer {
 }
 
 .inicio-familia h3{ 
-    font-size: 30px;
+    font-size: 28px;
     color: #3b82f6;
     margin: 0; 
    
 }
 .inicio-familia h2{ 
-    font-size: 57px;
+    font-size: 36px;
     margin: 0;
     margin-top: 5px;
    
 
 }
 .inicio-familia p{ 
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(226, 221, 221, 0.918);
     margin-top:35px;
    
@@ -263,17 +263,17 @@ footer {
     max-width: 1270px;
     text-align: center;
     text-shadow: 2px 2px 5px black;
-    
+    height: 550px;
     justify-content: center;
 
 }
 
 .inicio-entrenamiento h2 {
-    font-size: 26px;
+    font-size: 36px;
     color: #3b82f6;
 }
 .inicio-entrenamiento h3 {
-    font-size: 30px;
+    font-size: 28px;
     
 }
 .inicio-entrenamiento h3 span{
@@ -303,7 +303,7 @@ footer {
 
 }
 .entrenamiento h3{
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .entrenamiento p{
@@ -325,7 +325,7 @@ footer {
 
 
 .inicio-tops {
-    height: 500px;
+    height: 550px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -346,7 +346,7 @@ footer {
     height: 60px;
 }
 .container-top-texto h2{
-    font-size: 30px;
+    font-size: 36px;
     color:  #1567e2;
     display: flex;
     justify-content: center;
@@ -366,7 +366,7 @@ footer {
     align-items: center;
     text-align: center;
    margin: 0;
-    margin-left: 320px;
+    margin-left: 223px;
     
    
     
@@ -434,7 +434,7 @@ footer {
     height: 215px;
 }
 .top-1 h2{
-    font-size: 30px;
+    font-size: 36px;
     margin: 0;
     margin-top: 15px;
     color:  #1567e2;
@@ -442,7 +442,7 @@ footer {
 }
 
 .top-1 p{
-    font-size: 20px;
+    font-size: 18px;
    font-family: "Archivo Black", sans-serif;
    
 }
@@ -454,12 +454,12 @@ footer {
 
 
 .inicio-eventos {
-    height: 470px;
+    height: 550px;
 }
 
 .inicio-eventos h2{
     color: #3b82f6;
-    font-size: 26px;
+    font-size: 36px;
    
 
 }
@@ -477,7 +477,7 @@ footer {
     border-radius: 10px;
     background-color: #123b945b;
     width: 400px;
-    height: 290px;
+    height: 320px;
     transition: 0.9s;
     
 }
@@ -530,17 +530,17 @@ footer {
 }   
 
 .evento-texto h2 {
-    font-size: 22px;
+    font-size: 36px;
    margin: 0;
    color: white;
     margin-left: 12px;
     font-family: "Oswald", sans-serif;
 }
 .evento-texto p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 0;
     margin-left: 12px;
-    margin-top: 15px;
+    margin-top: 5px;
     color: rgba(226, 221, 221, 0.918);
 
 }
@@ -583,7 +583,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 text-align: left;
-    height: 470px;
+    height: 550px;
     gap: 30px;
 
 }
@@ -599,20 +599,20 @@ text-align: left;
 }
 
 .container-ubicación-texto h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin: 0%;
     color: #085bd8;
 
 
 }
 .container-ubicación-texto h3 {
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 65px;
 
 }
 
 .container-ubicación-texto p {
-    font-size: 17px;
+    font-size: 18px;
      color: rgba(226, 221, 221, 0.918);
 
 }
@@ -631,7 +631,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 text-align: left;
-    height: 370px;
+    height: 480px;
     
 }
 .container-final {
@@ -640,7 +640,7 @@ text-align: left;
 display: flex;
             justify-content: center;
             gap: 30px;
-            margin-top: 50px;
+            margin-top: 40px;
 }
 
 .container-final-texto {
@@ -657,11 +657,11 @@ text-align: left;
 
 }
 .container-final-texto h2{
-font-size: 45px;
+font-size: 36px;
 
 }
 .container-final-texto p{
-font-size: 25px;
+font-size: 18px;
  color: rgba(226, 221, 221, 0.918);
 
 }
@@ -720,7 +720,7 @@ text-align: left;
 
 }
 .container-final-contactos h3 {
-    font-size: 27px;
+    font-size: 28px;
     margin-top: 30px;
 }
 .container-final-contactos p {
@@ -843,18 +843,27 @@ text-align: left;
 .overlay.active {
   display: block;
 }
-/* index */
+
+
+
 
 /* 
-
 * {
     outline: 1px solid red;
 } 
+ */
+
+
+
+
+
+/* index */
+
     
-*/
 
 .inicio {
 width: 100%;
+ height: 720px;
 
 }
 
@@ -870,7 +879,7 @@ width: 100%;
     
     font-size: 48px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-left: 18px;
   
    
@@ -888,18 +897,18 @@ width: 100%;
 }
 .inicio-texto p{
     
-    font-size: 16px;
+    font-size: 18px;
     
     margin: 0;
-    margin-top: 225px;
+    margin-top: 345px;
    margin-left: 18px;
 
 }
 
 .inicio-img {
    
-    height: 529px;
-    background-image: url(fotos/img\ inici\ cel\ 2.jpeg);
+    height: 720px;
+    background-image: url(fotos/img\ inici\ cel.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
    
@@ -929,10 +938,10 @@ width: 100%;
 }
 
 .inicio-familia {
-     
+    
     display: flex;
   max-width: 1310px;
-   height: 440px;
+   height: 540px;
    
     justify-content: center;
     align-items: center;
@@ -947,14 +956,14 @@ width: 100%;
    
 }
 .inicio-familia h2{ 
-    font-size: 42px;
+    font-size: 36px;
     margin-top: 20px;
     
    
 
 }
 .inicio-familia p{ 
-    font-size: 17px;
+    font-size: 18px;
     color: rgba(226, 221, 221, 0.918);
     margin-top:35px;
    
@@ -969,7 +978,7 @@ width: 100%;
     text-shadow: 2px 2px 5px black;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
+    height: 720px;
 
 }
 
@@ -979,7 +988,7 @@ width: 100%;
     margin: 0;
     max-width: 335px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -998,11 +1007,11 @@ width: 100%;
     height: 200px;
 }
 .entrenamiento h3{
-    font-size: 19px;
+    font-size: 28px;
 }
 
 .entrenamiento p{
-   font-size: 14px;
+   font-size: 18px;
    
 
 
@@ -1012,7 +1021,7 @@ width: 100%;
 
 
 .inicio-tops {
-    height: 900px;
+    height: 1000px;
     
     
    
@@ -1022,15 +1031,16 @@ width: 100%;
     text-align: center;
     width: 100%;
     margin: 0;
-    margin-top: -400px;
+    margin-top: -370px;
     
 }
 .container-top-texto h2{
-    font-size: 22px;
+    font-size: 36px;
    margin: 0;
+  
 }
 .btn4{
-    font-size: 13px;
+    font-size: 18px;
    margin: 0;
    margin-top: 10px;
 }
@@ -1047,7 +1057,7 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 80px;
 
             
   }
@@ -1075,7 +1085,7 @@ width: 100%;
 
 }
 .top-1 h2{
-    font-size: 30px;
+    font-size: 36px;
     margin: 0;
     margin-top: 4px;
     color:  #1567e2;
@@ -1095,7 +1105,7 @@ width: 100%;
 
 
 .inicio-eventos {
-    height: 900px;
+    height: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1104,7 +1114,7 @@ width: 100%;
 
 .inicio-eventos h2{
     color: #3b82f6;
-    font-size: 26px;
+    font-size: 36px;
     margin-top: 00px;
 }
 
@@ -1124,7 +1134,7 @@ width: 100%;
 
 .evento {
     width: 350px;
-    height: 210px;
+    height: auto;
 }
 
 .fecha {
@@ -1143,19 +1153,21 @@ width: 100%;
 
 
 .evento-texto h2 {
-    font-size: 20px;
-   color: white
+    font-size: 36px;
+   color: white;
+    margin-top: 0px;
 }
 .evento-texto p {
-    font-size: 12px;
+    font-size: 18px;
     margin-top: 10px;
+    margin: 10px;
 }
 
 
 
 .btn5{
     
-    margin-top: 280px;
+    margin-top: 640px;
 
 }
 
@@ -1164,7 +1176,7 @@ width: 100%;
 .inicio-ubicación {
 flex-direction: column;
 text-align: center;
-    height: 650px;
+    height: 750px;
 }
 
 .container-ubicación-texto {
@@ -1173,24 +1185,24 @@ text-align: center;
 }
 
 .container-ubicación-texto h2 {
-    font-size: 30px;
+    font-size: 36px;
     margin: 0;
     color: #085bd8;
 }
 .container-ubicación-texto h3 {
-    font-size: 20px;
+    font-size: 28px;
     margin-top: 35px;
 
 }
 
 .container-ubicación-texto p {
-    font-size: 15px;
+    font-size: 18px;
      color: rgba(226, 221, 221, 0.918);
 
 }
 
  #mapa {
-    
+    margin-top: 117px;
       width: 250px;
       height: 250px;
     }
@@ -1228,13 +1240,13 @@ align-items: center;
 
 }
 .container-final-texto h2{
-font-size: 33px;
+font-size: 36px;
 
 }
 .container-final-texto p{
     
     margin-top: 0px;
-font-size: 20px;
+font-size: 18px;
 
 }
 
