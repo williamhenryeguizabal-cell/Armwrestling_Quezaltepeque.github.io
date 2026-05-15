@@ -1028,7 +1028,7 @@ text-align: left;
   display: block;
 }
 
-
+/* 
 * {
     outline: 1px solid red;
 } 
@@ -1088,10 +1088,10 @@ width: 100%;
 
 }
 .inicio-img {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     height: 100vh;
-    background-color: #c90f0f;
+    background-color: #000000;
     background-image: url(fotos/img\ inici\ cel.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -1159,9 +1159,7 @@ width: 100%;
     text-shadow: 2px 2px 5px black;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-     align-items: center;
-     display: flex;
+    height: 720px;
 
 }
 
@@ -1169,14 +1167,13 @@ width: 100%;
 .container-entrenamientos {
      flex-direction: row;
     margin: 0;
-    max-width: 90%;
+    max-width: 335px;
     width: 100%;
     height: 500px;
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-   
 
     
 
@@ -1205,7 +1202,7 @@ width: 100%;
 
 
 .inicio-tops {
-      height: 100vh;
+    height: 1000px;
     
     
    
@@ -1213,7 +1210,6 @@ width: 100%;
 .container-top-texto {
     flex-direction: column; 
     text-align: center;
-   
     width: 100%;
     margin: 0;
     margin-top: -370px;
@@ -1236,8 +1232,7 @@ width: 100%;
     flex-direction: row;
     margin: 0;
     max-width: 335px;
-     max-width: 90%;
-    width: 100%;
+    width: 800px;
     height: 400px;
     gap: 10px;
     display: flex;
