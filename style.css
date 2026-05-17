@@ -1217,17 +1217,19 @@ footer {
 }
 
 .top-reglas {
+    height: 450px;
     display: flex;
     justify-content: center; 
     align-items: center;
     flex-direction: column;
+   
 }
 
 .container-top-cuadros {
     display: flex;
     justify-content: center;
     gap: 0px;
-    margin-top: 15px;
+    margin-top: 40px;
     flex-direction: row;
     border: 2px solid #2c63fc;
     border-radius: 15px;
@@ -1257,6 +1259,7 @@ footer {
 
 .cuadro-top h3 {
     font-size: 22px;
+    margin:10px;
 }
 
 .cuadro-top p {
@@ -1276,7 +1279,7 @@ footer {
 
 
 .btn8 {
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
     background: linear-gradient(45deg, #1205c2, #0c38c7);
     padding: 13px;
@@ -1284,15 +1287,17 @@ footer {
     color: white;
     text-decoration: none;
     transition: 0.3s;
-    margin-top: 10px;
+    
     justify-content: center;
     font-family: "Oswald", sans-serif;
     box-shadow: 0 5px 15px #02059c;
     text-align: center;
-    width: 138px;
+    width: 150px;
 }
 .btn8 i {
-    font-size: 16px;
+    font-size: 20px;
+    color: white;
+    margin: 0;
 }
 .btn8:hover {
     background: linear-gradient(45deg, #0f04aa, #092da3);
@@ -2150,5 +2155,100 @@ footer {
 
 
     }
+
+    /* top */
+
+    .top-inicio {
+    background-color: #020e22ee;
+        display: flex;
+        max-width: 100%;
+        margin-top: 59px;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+}
+
+.container-top {
+   display: flex;
+        flex-direction: column;
+        margin: 0 15px;
+        width: 90%;
+}
+
+.container-texto-top {
+    width: 100%;
+    text-align: left;
+    
+}
+
+.container-texto-top h1 {
+    font-size: 48px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 0.9;
+
+}
+.container-texto-top h5 {
+    font-size: 19px;
+
+
+}
+
+.container-texto-top span {
+    font-size: 26px;
+     font-family: "Oswald", sans-serif;
+}
+
+
+.container-texto-top p {
+    font-size: 14px;
+
+    color: rgba(226, 221, 221, 0.918);
+
+
+
+}
+
+.btn7 {
+    font-size: 18px;
+    width: 150px;
+}
+
+
+
+.top-inicio-img {
+    max-width: 100%;
+}
+
+.top-inicio-img img {
+     width: 100%;
+        height: 302px;
+        margin: 15px 0;
+
+
+
+
+}
+
+
+
+
+.top-reglas {
+    height: auto;
+    
+}
+
+.container-top-cuadros {
+    flex-direction: column;
+}
+
+.container-top-cuadros hr {
+    height: 2px;
+    width: 90%;
+}
+
 
 }
