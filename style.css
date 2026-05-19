@@ -1309,6 +1309,405 @@ footer {
 }
 
 
+/* contactos */
+
+
+
+
+.redes {
+    margin: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.redes h1 {
+    font-size: 48px;
+}
+
+.redes p {
+    font-size: 18px;
+     color: rgba(209, 209, 209, 0.753);
+     margin: 0 5px;
+}
+
+
+.contacto1 {
+    border-radius: 25px;
+    border: 1px solid rgba(4, 148, 16, 0.473);
+    background-color: rgba(4, 148, 16, 0.123);
+    width: 50%;
+    margin: 30px;
+    height: 300px;
+    text-align: left;
+    transition: all 0.8s;
+    
+}
+.contacto1:hover {
+   
+    border: 1px solid rgba(5, 212, 23, 0.473);
+    background-color: rgba(5, 189, 20, 0.151);
+   
+    
+}
+.contacto1 .p-1{
+    color: rgb(24, 219, 112) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-top: -45px;
+    margin-left: 100px;
+
+}
+
+.contacto1 h3 {
+    font-size: 28px;
+    margin-left: 100px;
+
+}
+.contacto1 .p-2 {
+    color:  rgba(209, 209, 209, 0.603) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.btn9 {
+
+    font-size: 20px;
+    display: inline-block;
+     background: linear-gradient(45deg, rgb(24, 219, 112), rgba(4, 148, 16, 0.473));
+    padding: 15px ;
+    border-radius: 45px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 35px;
+    font-family: "Oswald", sans-serif;
+    box-shadow: 0 5px 15px rgba(7, 128, 17, 0.795); 
+    margin-left: 100px;
+     transition: 0.25s;
+    margin-top: 15px;
+}
+.btn9:hover{  
+    background: linear-gradient(45deg rgb(4, 36, 18), rgba(5, 65, 10, 0.473));
+    box-shadow: 0 8px 18px rgba(7, 150, 19, 0.795); 
+    transform: translateY(-6px) scale(1.01);
+           
+
+}
+
+.icon-contacto1 {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    background-color:rgb(8, 224, 106);
+    border: 2px solid rgb(7, 184, 87);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+     margin-left: 15px;
+
+}
+
+
+
+
+.contacto2 {
+    border-radius: 25px;
+    border: 1px solid #020846;
+    background: linear-gradient(to bottom, #0207336e, #01042267);
+     width: 50%;
+    margin: 30px;
+    height: 300px;
+    text-align: left;
+    transition: all 0.8s;
+    
+}
+.contacto2:hover {
+   
+    border: 1px solid #061299c5;
+    background: linear-gradient(to bottom, #030b5848, #02073b4b);
+   
+    
+}
+.contacto2 .p-1{
+    color: #392da7 ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -45px;
+}
+
+.contacto2 h3 {
+    margin-left: 100px;
+    font-size: 28px;
+
+}
+.contacto2 .p-2 {
+    color:  rgba(209, 209, 209, 0.603) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.btn10 {
+
+    font-size: 20px;
+    display: inline-block;
+     background: linear-gradient(-45deg, rgba(255, 0, 0, 0.582), rgba(0, 110, 255, 0.534));
+    padding: 15px ;
+    border-radius: 45px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+   margin-top: 35px;
+    font-family: "Oswald", sans-serif;
+    box-shadow: 0 5px 15px rgba(31, 9, 153, 0.479); 
+    margin-left: 100px;
+     transition: 0.25s;
+    
+}
+.btn10:hover{  
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.705), rgba(0, 110, 255, 0.658));
+    box-shadow: 0 8px 18px rgba(31, 6, 175, 0.479); 
+    transform: translateY(-6px) scale(1.01);
+           
+
+}
+
+.icon-contacto2 {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    background-color:rgba(16, 4, 80, 0.479);
+    border: 2px solid rgba(19, 3, 109, 0.479);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+     margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+.contacto3 {
+    border-radius: 25px;
+    border: 1px solid #6d4a164f;
+    background:linear-gradient(-45deg, #760aa133,#99098633,rgba(235, 73, 9, 0.144),#df7f111f);
+    width: 50%;
+    margin: 30px;
+    height: 300px;
+    text-align: left;
+    transition: all 1.2s;
+    
+}
+.contacto3:hover {
+   
+     border: 1px solid #81520b8e;
+    background:linear-gradient(-45deg, #760aa156,#9909864d,rgba(235, 73, 9, 0.24),#df7f1131);
+   
+    
+}
+.contacto3 .p-1{
+    color: #b1770d ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -45px;
+}
+
+.contacto3 h3 {
+    margin-left: 100px;
+    font-size: 28px;
+
+}
+.contacto3 .p-2 {
+    color:  rgba(209, 209, 209, 0.603) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.btn11 {
+
+    font-size: 20px;
+    display: inline-block;
+     background:linear-gradient(-45deg, #760aa1,#990986,rgba(235, 73, 9, 0.808),#df7f11);
+    padding: 15px ;
+    border-radius: 45px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 35px;
+    font-family: "Oswald", sans-serif;
+    box-shadow: 0 5px 15px rgba(184, 106, 4, 0.664); 
+   
+    margin-left: 100px;
+     transition: 0.25s;
+    
+}
+.btn11:hover{  
+     background:linear-gradient(-45deg, #65088a,#7a056b,rgba(126, 38, 4, 0.808)rgb(153, 85, 7)5);
+    box-shadow: 0 8px 18px rgba(184, 106, 4, 0.479); 
+    transform: translateY(-6px) scale(1.01);
+           
+
+}
+
+.icon-contacto3 {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+     background:linear-gradient(-45deg, #760aa1,#990986,rgba(235, 73, 9, 0.808),#df7f11);
+    border: 2px solid rgba(196, 98, 7, 0.479);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+     margin-left: 15px;
+
+}
+
+
+.redes2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+.contacto21 {
+    border-radius: 25px;
+    border: 1px solid rgba(53, 52, 52, 0.856);
+   background-color: rgba(31, 30, 30, 0.479);
+    width: 50%;
+    margin: 5px;
+    height: 90px;
+    text-align: left;
+    transition: all 1.2s;
+    
+}
+.contacto21:hover {
+   
+     border: 1px solid #0d0b8149;
+    background-color: #0330921c;
+    
+}
+.contacto21 .p-1{
+    color:  rgba(209, 209, 209, 0.603)  ;
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    margin: 0 ;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.contacto21 .p-2 {
+    color:  rgba(245, 242, 242, 0.795) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -0px;
+}
+
+
+.icon-contacto21 {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+     background-color: #06244b;
+    border: 2px solid #0756a0;
+    color: #e0d9d9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+     margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+.contacto22 {
+    border-radius: 25px;
+    border: 1px solid rgba(53, 52, 52, 0.856);
+   background-color: rgba(31, 30, 30, 0.479);
+    width: 50%;
+    margin: 5px;
+    height: 90px;
+    text-align: left;
+    transition: all 1.2s;
+    
+}
+.contacto22:hover {
+   border: 1px solid #0d0b8149;
+    background-color: #0330921c;
+   
+    
+}
+.contacto22 .p-1{
+    color:  rgba(209, 209, 209, 0.603)  ;
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    margin: 0 ;
+    margin-left: 100px;
+    margin-top: -60px;
+
+}
+
+.contacto22 h3 {
+    margin-left: 100px;
+
+}
+.contacto22 .p-2 {
+    color:  rgba(245, 242, 242, 0.795) ;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -0px;
+}
+
+
+.icon-contacto22 {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+     background-color: #06244b;
+    border: 2px solid #0756a0;
+    color: #e0d9d9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+     margin-left: 15px;
+
+}
+
+
+
+
+
 @media (max-width: 768px) {
 
 
@@ -2250,5 +2649,83 @@ footer {
     width: 90%;
 }
 
+
+
+/* contacto */
+
+
+.contacto1 {
+    width: 90%;
+    height: auto;
+}
+
+.contacto1 h3 {
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+.btn9 {
+    font-size: 17px;
+    margin: 20px;
+    margin-left:100px;
+}
+.contacto2 {
+    width: 90%;
+    height: auto;
+}
+
+.contacto2 h3 {
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+.btn10 {
+     font-size: 17px;
+    margin: 20px;
+    margin-left:100px;
+}
+.contacto3 {
+    width: 90%;
+    height: auto;
+}
+
+.contacto3 h3 {
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+.btn11 {
+    font-size: 17px;
+    margin: 20px;
+    margin-left:100px;
+}
+
+
+.contacto21 {
+    width: 90%;
+}
+.contacto21 .p-2 {
+   font-size: 16px;
+}
+
+.contacto21 .p-1 {
+   font-size: 22px;
+}
+
+.contacto22 {
+    width: 90%;
+}
+
+
+.contacto22 .p-1 {
+   font-size: 22px;
+}
+
+.contacto22 .p-2 {
+   font-size: 16px;
+}
 
 }
