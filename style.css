@@ -1053,10 +1053,11 @@ footer {
     margin-left: 105px;
 }
 
-.tag p {
-    color: #2c63fc;
-    font-family: "Ceviche One", system-ui;
-    font-size: 48px;
+.tag p{
+        color: #2c63fc;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 48px;
+        text-shadow: #000000 5px 5px 7px;
 
 }
 
@@ -2497,8 +2498,9 @@ footer {
 
     .tag p {
         color: #2c63fc;
-        font-family: "Ceviche One", system-ui;
+        font-family: "Bebas Neue", sans-serif;
         font-size: 48px;
+        text-shadow: #000000 5px 5px 7px;
 
     }
 
