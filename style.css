@@ -1056,7 +1056,7 @@ footer {
 .tag p{
         color: #2c63fc;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 48px;
+        font-size: 58px;
         text-shadow: #000000 5px 5px 7px;
 
 }
@@ -2497,11 +2497,7 @@ footer {
     }
 
     .tag p {
-        color: #2c63fc;
-        font-family: "Bebas Neue", sans-serif;
         font-size: 48px;
-        text-shadow: #000000 5px 5px 7px;
-
     }
 
 
