@@ -462,6 +462,10 @@ footer {
 .top-1 img {
     width: 190px;
     height: 215px;
+    mask-image: linear-gradient(
+        blue 75%,
+        transparent
+    );
 }
 
 .top-1 h2 {
@@ -1253,7 +1257,7 @@ footer {
     justify-content: center;
     flex-direction: row;
      align-items: center;
-    margin: 10px 40px;
+    margin: 10px 50px;
     height: 140px;
 
 }
@@ -1264,7 +1268,8 @@ footer {
 }
 
 .cuadro-top p {
-    font-size: 17px;
+    font-size: 15px;
+    width: 106px;
     color: rgba(226, 221, 221, 0.918);
 
 
