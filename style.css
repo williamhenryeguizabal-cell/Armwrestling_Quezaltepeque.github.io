@@ -1373,7 +1373,7 @@ footer {
     background-color: rgba(4, 148, 16, 0.123);
     width: 50%;
     margin: 30px;
-    height: 300px;
+    height: auto;
     text-align: left;
     transition: all 0.8s;
     
@@ -1418,9 +1418,10 @@ footer {
     margin-top: 35px;
     font-family: "Oswald", sans-serif;
     box-shadow: 0 5px 15px rgba(7, 128, 17, 0.795); 
-    margin-left: 100px;
      transition: 0.25s;
-    margin-top: 15px;
+    margin:20px;
+    
+    margin-left: 100px;
 }
 .btn9:hover{  
     background: linear-gradient(45deg rgb(4, 36, 18), rgba(5, 65, 10, 0.473));
@@ -1455,7 +1456,7 @@ footer {
     background: linear-gradient(to bottom, #0207336e, #01042267);
      width: 50%;
     margin: 30px;
-    height: 300px;
+    height: auto;
     text-align: left;
     transition: all 0.8s;
     
@@ -1499,8 +1500,10 @@ footer {
    margin-top: 35px;
     font-family: "Oswald", sans-serif;
     box-shadow: 0 5px 15px rgba(31, 9, 153, 0.479); 
-    margin-left: 100px;
      transition: 0.25s;
+      margin:20px;
+    
+    margin-left: 100px;
     
 }
 .btn10:hover{  
@@ -1539,7 +1542,7 @@ footer {
     background:linear-gradient(-45deg, #760aa133,#99098633,rgba(235, 73, 9, 0.144),#df7f111f);
     width: 50%;
     margin: 30px;
-    height: 300px;
+    height: auto;
     text-align: left;
     transition: all 1.2s;
     
@@ -1583,9 +1586,9 @@ footer {
     margin-top: 35px;
     font-family: "Oswald", sans-serif;
     box-shadow: 0 5px 15px rgba(184, 106, 4, 0.664); 
-   
-    margin-left: 100px;
      transition: 0.25s;
+      margin:20px;
+    margin-left: 100px;
     
 }
 .btn11:hover{  
