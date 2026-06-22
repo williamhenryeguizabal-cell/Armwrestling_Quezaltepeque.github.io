@@ -25,9 +25,9 @@ header {
     z-index: 10010;
 
 }
-
+/* 
 * {
-    outline: 1px solid red; } */
+    outline: 1px solid red; } */ */
 
 .container-logo {
     display: flex;
@@ -39,7 +39,7 @@ header {
 }
 
 .logo {
-    width: 45px;
+    width: 40px;
     height: auto;
 }
 
@@ -1131,14 +1131,12 @@ footer {
 
 
 .nosotros-final-img {
-    width: 80%;
-    height: auto;
+    width: 100%;
 }
 
 .nosotros-final-img img {
     width: 100%;
-    height: auto;
-
+    height: 100%;
 
 
 }
@@ -1945,7 +1943,6 @@ footer {
 
 
     .inicio-entrenamiento {
-        padding: 20px;
         background-color: #05117c3f;
         text-align: center;
         text-shadow: 2px 2px 5px black;
@@ -2200,7 +2197,6 @@ footer {
 
 
     .inicio-final {
-        padding: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;
