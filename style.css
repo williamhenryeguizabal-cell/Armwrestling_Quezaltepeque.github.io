@@ -1146,8 +1146,8 @@ footer {
 .top-inicio {
     background-color: #040c1d;
     display: flex;
-    max-width: 100%;
-    height: 542px;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -1206,7 +1206,9 @@ footer {
     font-family: "Oswald", sans-serif;
     box-shadow: 0 5px 15px #02059c;
     text-align: center;
-    width: 458px;
+    width: 90%;
+    margin: 20px;
+    
 }
 
 .btn7:hover {
@@ -1237,7 +1239,7 @@ footer {
 }
 
 .top-inicio-img img {
-    width: 780px;
+    width: 100%;
     height: 100%;
 
 
@@ -1245,7 +1247,7 @@ footer {
 }
 
 .top-reglas {
-    height: 450px;
+    height: 90%;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -1262,6 +1264,8 @@ footer {
     border: 2px solid #2c63fc;
     border-radius: 15px;
     width: 90%;
+    height: auto;
+     padding: 20px;
 
 }
 
@@ -1275,12 +1279,11 @@ footer {
 
 
 .cuadro-top {
-    width: 240px;
+    width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: row;
      align-items: center;
-    margin: 10px 50px;
     height: 140px;
 
 }
