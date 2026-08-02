@@ -1838,8 +1838,8 @@ footer {
 }
 
 .foto-detalles img {
-    width: 75%;
-    height: 95%;
+    width: 62%;
+    height: 99%;
 }
 
 .posicionamiento {
@@ -1901,6 +1901,9 @@ footer {
     text-shadow: 1px 4px 31px #2c63fc;
 }
 
+.estaditicas-mobil {
+    display:none;
+}
 
 
 .info-2 {
@@ -3191,6 +3194,56 @@ td:first-child{
 .record p span {
     font-size: 30px;
 }
+
+
+.estaditicas-mobil {
+    display:block;
+}
+
+.estaditicas-mobil {
+
+    background-color: #0a1a4d8e;
+    border: 2px solid #0b298ba1;
+    border-radius: 15px;
+    width: 88%;
+    height: 90%;
+    text-align: left;
+    color: rgb(209, 209, 209);
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin: 15px 0px;
+
+
+
+}
+
+.estaditicas-mobil h3 {
+    font-size: 40px;
+    margin: 0;
+    margin-left: 25px;
+
+}
+
+.estaditicas-mobil img {
+    width: 10%;
+    height: 100%;
+    margin: 0;
+}
+
+.estaditicas-mobil p {
+    margin-left: 25px;
+    font-size: 19px;
+
+}
+
+.estaditicas-mobil p span {
+    position: absolute;
+    right: 45px;
+    color: #2c63fc;
+     text-shadow: 1px 4px 31px #2c63fc;
+}
+
+
 
 
 
