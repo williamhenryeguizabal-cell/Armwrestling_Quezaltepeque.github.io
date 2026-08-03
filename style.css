@@ -2175,7 +2175,6 @@ td:first-child{
     }
 
 
-    /* 
 * {
     outline: 1px solid red;
 } 
@@ -2189,7 +2188,7 @@ td:first-child{
 
     .inicio {
         width: 100%;
-        height: 100vh;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2201,6 +2200,8 @@ td:first-child{
         width: 100%;
         margin: 0;
         text-align: center;
+        justify-content: center;
+
 
 
 
@@ -2209,8 +2210,8 @@ td:first-child{
     }
 
     .inicio-texto h1 {
-        width: 70%;
-        font-size: 48px;
+        width: 100%;
+        font-size: 43px;
         margin: 0;
         margin-top: 30px;
 
@@ -2220,9 +2221,10 @@ td:first-child{
 
     .inicio-texto span {
         width: 140px;
-        font-size: 40px;
+        font-size: 36px;
         margin: 0;
-        margin: -10px 0px 60px 200px;
+        position: absolute;
+        right: 20px;
 
 
 
@@ -2241,7 +2243,7 @@ td:first-child{
     .inicio-img {
         max-width: 90%;
         margin: 0 auto;
-        height: 100vh;
+        min-height: 100vh;
         background-color: #000000;
         background-image: url(fotos/img\ inici\ cel.jpeg);
         background-size: contain;
@@ -2256,6 +2258,7 @@ td:first-child{
         width: 130px;
         margin: 0;
         text-align: center;
+         margin:10px 0px;
 
     }
 
@@ -2266,6 +2269,8 @@ td:first-child{
 
         width: 130px;
         text-align: center;
+                margin:27px 6px;
+
 
 
     }
@@ -2273,8 +2278,8 @@ td:first-child{
     .inicio-familia {
 
         display: flex;
-        max-width: 1310px;
-        height: 540px;
+        width: 100%;
+        height: auto;
 
         justify-content: center;
         align-items: center;
@@ -2284,8 +2289,7 @@ td:first-child{
     .inicio-familia h3 {
         font-size: 28px;
         color: #3b82f6;
-        margin: 0;
-        margin-top: -60px;
+        margin: 28px 0;
 
     }
 
@@ -2314,7 +2318,11 @@ td:first-child{
         justify-content: center;
         display: flex;
         align-items: center;
-        height: 720px;
+        height: auto;
+    }
+
+    .inicio-entrenamiento h2 {
+        font-size:22px;
     }
 
 
@@ -2323,7 +2331,7 @@ td:first-child{
         margin: 0;
         max-width: 335px;
         width: 100%;
-        height: 500px;
+        height: auto;
         gap: 10px;
         display: flex;
         flex-wrap: wrap;
@@ -2339,9 +2347,9 @@ td:first-child{
     }
 
     .entrenamiento {
-
+        margin: 26px 3px;
         width: 152px;
-        height: 200px;
+        height: auto;
     }
 
     .entrenamiento h3 {
@@ -2355,7 +2363,9 @@ td:first-child{
 
     }
 
-
+    .btn3 {
+        margin: 20px 10px;
+    }
 
 
     .inicio-tops {
@@ -2450,7 +2460,7 @@ td:first-child{
 
 
     .inicio-eventos {
-        height: 1300px;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2467,9 +2477,8 @@ td:first-child{
     .container-eventos {
         flex-direction: row;
         margin: 0;
-        max-width: 335px;
         width: 100%;
-        height: 400px;
+        height: auto;
         gap: 10px;
         display: flex;
         flex-wrap: wrap;
@@ -2478,7 +2487,7 @@ td:first-child{
     }
 
     .evento {
-        width: 350px;
+        width: 90%;
         height: auto;
     }
 
@@ -2492,7 +2501,7 @@ td:first-child{
 
 
     .evento img {
-        width: 320px;
+        width: 90%;
         height: 110px;
     }
 
@@ -2511,22 +2520,16 @@ td:first-child{
 
 
 
-    .btn5 {
-
-        margin-top: 640px;
-
-    }
-
 
 
     .inicio-ubicación {
         flex-direction: column;
         text-align: center;
-        height: 750px;
+        height: auto;
     }
 
     .container-ubicación-texto {
-        height: 300px;
+        height: auto;
         width: 100%;
     }
 
@@ -2538,7 +2541,6 @@ td:first-child{
 
     .container-ubicación-texto h3 {
         font-size: 28px;
-        margin-top: 35px;
 
     }
 
@@ -2549,8 +2551,7 @@ td:first-child{
     }
 
     #mapa {
-        margin-top: 117px;
-        width: 250px;
+        width: 90%;
         height: 250px;
     }
 
@@ -2562,7 +2563,7 @@ td:first-child{
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 320px;
+        height: auto;
 
 
     }
@@ -2577,7 +2578,7 @@ td:first-child{
     .container-final-texto {
         width: 100%;
         max-width: 386px;
-        height: 250px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2617,7 +2618,7 @@ td:first-child{
     .container-final-contactos {
 
         margin: 0;
-        width: 350px;
+        width: 100%;
         align-items: center;
         text-align: center;
     }
